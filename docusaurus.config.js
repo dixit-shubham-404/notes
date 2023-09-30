@@ -6,8 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+
+  title: 'SD Notes',
+  tagline: 'We can not solve our problem with same thinking we used when we created them.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,8 +19,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dixit-shubham-404', // Usually your GitHub org/user name.
+  projectName: 'notes', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -72,11 +73,16 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'algorithm_sidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Algorithm',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'cs_subject_sidebar',
+            position: 'left',
+            label: 'CS Subjects',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
