@@ -1,3 +1,5 @@
 /node_modules/*
 .docusaurus/
 profile.sh
+deploy.sh
+/build/*
