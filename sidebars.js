@@ -81,4 +81,33 @@ const cs_subject_sidebar = {
 //   ],
 // };
 
-module.exports = {algorithm_sidebar, cs_subject_sidebar};
+// const language_sidebar = {
+//   language_sidebar : [
+//     {
+//       label:'RUST',
+//       type: 'category',
+//       items:[
+//         {
+//           label:'Loops',
+//           type:'doc',
+//           id:'Languages/RUST/Loops'
+//         }
+//       ],
+//     },
+//   ],
+// };
+const language_sidebar = [
+      {
+      label:'RUST',
+      type: 'category',
+      items:[
+        {
+          label:'Loops',
+          type:'doc',
+          id:'Languages/RUST/Loops'
+        }
+      ],
+    }
+];
+
+module.exports = {algorithm_sidebar, cs_subject_sidebar, language_sidebar};

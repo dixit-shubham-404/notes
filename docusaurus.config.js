@@ -86,6 +86,12 @@ const config = {
             label: 'CS Subjects',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'language_sidebar',
+            position: 'left',
+            label: 'Languages',
+          },
+          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
