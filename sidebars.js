@@ -10,6 +10,7 @@
  */
 
 // @ts-check
+const rust = require("./sidebar/Languages/rust");
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 // const sidebars = {
@@ -96,23 +97,19 @@ const cs_subject_sidebar = {
 //     },
 //   ],
 // };
+
+
 const language_sidebar = [
       {
       label:'RUST',
       type: 'category',
       items:[
-        {
-          label:'Loops',
-          type:'doc',
-          id:'Languages/RUST/Loops'
-        },
-        {
-          label:'Ownership',
-          type:'doc',
-          id:'Languages/RUST/Ownership'
-        }
+        rust.loops,
+        rust.ownership,
+        rust.struct
       ],
     }
 ];
+
 
 module.exports = {algorithm_sidebar, cs_subject_sidebar, language_sidebar};
