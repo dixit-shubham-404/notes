@@ -105,6 +105,11 @@ const language_sidebar = [
           label:'Loops',
           type:'doc',
           id:'Languages/RUST/Loops'
+        },
+        {
+          label:'Ownership',
+          type:'doc',
+          id:'Languages/RUST/Ownership'
         }
       ],
     }
