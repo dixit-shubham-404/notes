@@ -106,7 +106,8 @@ const language_sidebar = [
       items:[
         rust.loops,
         rust.ownership,
-        rust.struct
+        rust.struct,
+        rust.enum_and_pattern
       ],
     }
 ];

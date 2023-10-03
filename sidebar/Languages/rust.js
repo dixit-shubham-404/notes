@@ -17,8 +17,14 @@ const struct = {
     id:'Languages/RUST/Struct'
 };
 
+const enum_and_pattern = {
+    label:'Enum and Pattern',
+    type:'doc',
+    id:'Languages/RUST/EnumAndPattern'
+};
 module.exports = {
     ownership,
     loops,
-    struct
+    struct,
+    enum_and_pattern
 };
