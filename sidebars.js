@@ -11,6 +11,9 @@
 
 // @ts-check
 const rust = require("./sidebar/Languages/rust");
+const sll = require("./sidebar/DataStructure/singlyLinkedList");
+const stack = require("./sidebar/DataStructure/stacks");
+const docker = require("./sidebar/Infra/Docker");
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 // const sidebars = {
@@ -107,10 +110,50 @@ const language_sidebar = [
         rust.loops,
         rust.ownership,
         rust.struct,
-        rust.enum_and_pattern
+        rust.enum_and_pattern,
+        rust.system
       ],
     }
 ];
 
+const infra_sidebar = [
+  {
+  label:'Infra',
+  type: 'category',
+  items:[
+    docker.docker
+  ],
+}
+];
 
-module.exports = {algorithm_sidebar, cs_subject_sidebar, language_sidebar};
+const dsa_sidebar = [
+  {
+  label:'Singly Linked List',
+  type: 'category',
+  items:[
+    sll.introduction,
+    sll.insertion,
+    sll.deletion,
+    sll.count,
+    sll.swap,
+    sll.reverse,
+    sll.merge,
+    sll.mergeSort,
+    sll.reverseInGroups,
+    sll.detectLoop,
+    sll.detectandRemoveLoop,
+    sll.addTwoNumber,
+    sll.rotate,
+
+  ],
+  },
+  {
+    label:'Stacks',
+    type: 'category',
+    items:[
+      stack.introduction
+    ],
+  }
+];
+
+module.exports = {algorithm_sidebar, cs_subject_sidebar, language_sidebar, infra_sidebar, dsa_sidebar};

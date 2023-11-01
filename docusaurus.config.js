@@ -92,6 +92,18 @@ const config = {
             label: 'Languages',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'infra_sidebar',
+            position: 'left',
+            label: 'Infra',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'dsa_sidebar',
+            position: 'left',
+            label: 'Data Structure',
+          },
+          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',

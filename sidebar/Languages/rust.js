@@ -22,9 +22,17 @@ const enum_and_pattern = {
     type:'doc',
     id:'Languages/RUST/EnumAndPattern'
 };
+
+const system = {
+    label:'System',
+    type:'doc',
+    id:'Languages/RUST/System'
+};
+
 module.exports = {
     ownership,
     loops,
     struct,
-    enum_and_pattern
+    enum_and_pattern,
+    system
 };
