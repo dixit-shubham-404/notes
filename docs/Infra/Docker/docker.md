@@ -132,3 +132,35 @@ docker rm containerName/Id
 
 
 ```
+
+## Docker file
+
+A text file to create docker image.
+A kind of automation to create docker images.
+
+A docket file start by declaring base image via `FROM`.
+```
+FROM ubuntu
+```
+
+if we want to build our image we can start from scratch
+
+```
+FROM scratch
+```
+
+We can also give the maintainer of the image. A person reposible for the image.
+
+```
+FROM ubuntu
+
+MAINTAINER Shubham Dixit <dixit1998.sd@gmail.com>
+```
+
+We can use `RUN` and `CMD` to run comands inside the image. The difference is `RUN` is executed while building of the image and `CMD` is executed when you create container out of the image.
+
+## Runing Jenkins
+
+```shell
+sudo docker run --name MyJenkins -u 0 -p 8080:8081 -p 5000:5000 -v /home/shubhamdixit/Documents/Docker/Jenkins/.:/var/jenkins_home 892693e4fe31
+```

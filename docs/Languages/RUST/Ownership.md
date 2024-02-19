@@ -13,7 +13,7 @@ Comparision between these are
 
 When a program is executed it has two types of memory stacks and heap.
 <br/>
-Stack memory is allacated at compile time it has stack frames for every function which inturn will have static variable stored. Stack memory is fixed size. The variables inside stack frame should have known fixed size. Life time of data is stack is till the execution of that function.    
+Stack memory is allocated at compile time it has stack frames for every function which inturn will have static variable stored. Stack memory is fixed size. The variables inside stack frame should have known fixed size. Life time of data is stack is till the execution of that function.    
 <br/><br/>
 Heap memory is allocated during runtime as demanded by the application. Life time if data is controlled by application.  
 for dynamically allocated data stack store the pointer to heap memory instead of actual data.

@@ -18,7 +18,7 @@ Linked list is accessed via head node which points to first node of the list. Th
 - Dynamic Data Structure
 - Ease of insertion and Deletion
 - Efficient memory allocation
-- Vide range of implementation(eg, stack, queue,etc.)
+- Wide range of implementation(eg, stack, queue,etc.)
 
 ## Types of linked List
 
