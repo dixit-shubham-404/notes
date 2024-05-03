@@ -119,6 +119,41 @@ const uniqueBST ={
     id:'Algorithms/Practise/LeetCode/UniqueBST'
 };
 
+const lenLongstSubstringwithoutRepeat ={
+    label:'Longest Substring Without Repeating Characters',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/lenLongstSubstringwithoutRepeat'
+    
+};
+
+const medianSortedArray ={
+    label:'Median of Two Sorted Arrays',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/MedianSortedArray'
+    
+};
+
+const longestPalindromSubStr ={
+    label:'Longest Palindromic Substring',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/LongestPalindromeSubStr'
+    
+};
+
+const stringToInteger ={
+    label:'String To Integer',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/StringToInteger'
+    
+};
+
+const zigZagString ={
+    label:'Zig Zag String',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/ZigZagString'
+    
+};
+
 module.exports = {
     subset,
     subStrWithConCat,
@@ -139,5 +174,10 @@ module.exports = {
     groupAnagram,
     threeSum,
     rotateImage,
-    uniqueBST
+    uniqueBST,
+    lenLongstSubstringwithoutRepeat,
+    medianSortedArray,
+    longestPalindromSubStr,
+    stringToInteger,
+    zigZagString
 };

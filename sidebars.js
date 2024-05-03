@@ -88,6 +88,11 @@ const algorithm_sidebar = [
       leetcode.threeSum,
       leetcode.rotateImage,
       leetcode.uniqueBST,
+      leetcode.lenLongstSubstringwithoutRepeat,
+      leetcode.medianSortedArray,
+      leetcode.longestPalindromSubStr,
+      leetcode.stringToInteger,
+      leetcode.zigZagString
     ]
   },
 

@@ -2,7 +2,7 @@
 
 Breadth First Search is used search for the graph data structure for a particular node that meets the set of criteria. It start from the root of the graph and visits all node at the current depth level before moving to the nodes at the next depth level.
 
-It's almost same as BFS for tree only difference is graph may contain cycles so we might reach same node again. To avoid this we main the list of visited nodes.
+It's almost same as BFS for tree only difference is graph may contain cycles so we might reach same node again. To avoid this we maintain the list of visited nodes.
 
 To do this queue is used. All the adjacent unvisited node of the current level are pushed into the queue and the nodes of the current level are marked visited and popped from the queue.
 
