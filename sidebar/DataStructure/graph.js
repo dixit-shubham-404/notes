@@ -28,10 +28,17 @@ const detectCycleDFS = {
     id:'DataStructure/Graph/DetectCycleDFS'
 };
 
+const topologicalSorting = {
+    label:'Topological Sorting',
+    type:'doc',
+    id:'DataStructure/Graph/TopologicalSorting'
+};
+
 module.exports = {
     introduction,
     bfs,
     dfs,
     detectCycle,
-    detectCycleDFS
+    detectCycleDFS,
+    topologicalSorting
 };

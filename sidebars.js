@@ -246,6 +246,7 @@ const dsa_sidebar = [
      graph.dfs,
      graph.detectCycle,
      graph.detectCycleDFS,
+     graph.topologicalSorting,
     ],
   },
   {

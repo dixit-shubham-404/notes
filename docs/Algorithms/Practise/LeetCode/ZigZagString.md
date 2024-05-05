@@ -55,4 +55,4 @@ string convert(string s, int numRows) {
 
 ### Analysiis
 - **Time Complexity** - O(n) where n is the size of string.
-- **Space Complexity** - o(numRows), for the vector array.
+- **Space Complexity** - O(numRows), for the vector array.
