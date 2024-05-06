@@ -154,6 +154,13 @@ const zigZagString ={
     
 };
 
+const regularExpression ={
+    label:'Regular Expression',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/RegularExpression'
+    
+};
+
 module.exports = {
     subset,
     subStrWithConCat,
@@ -179,5 +186,6 @@ module.exports = {
     medianSortedArray,
     longestPalindromSubStr,
     stringToInteger,
-    zigZagString
+    zigZagString,
+    regularExpression,
 };

@@ -92,7 +92,8 @@ const algorithm_sidebar = [
       leetcode.medianSortedArray,
       leetcode.longestPalindromSubStr,
       leetcode.stringToInteger,
-      leetcode.zigZagString
+      leetcode.zigZagString,
+      leetcode.regularExpression,
     ]
   },
 
