@@ -161,6 +161,13 @@ const regularExpression ={
     
 };
 
+const containerWithMostWater = {
+    label:'Container With most water',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/ContainerWithMostWater'
+    
+};
+
 module.exports = {
     subset,
     subStrWithConCat,
@@ -188,4 +195,5 @@ module.exports = {
     stringToInteger,
     zigZagString,
     regularExpression,
+    containerWithMostWater,
 };

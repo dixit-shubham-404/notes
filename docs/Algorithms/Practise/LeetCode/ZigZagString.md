@@ -53,6 +53,6 @@ string convert(string s, int numRows) {
 ```
 
 
-### Analysiis
+### Analysis
 - **Time Complexity** - O(n) where n is the size of string.
 - **Space Complexity** - O(numRows), for the vector array.

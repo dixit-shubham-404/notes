@@ -94,6 +94,7 @@ const algorithm_sidebar = [
       leetcode.stringToInteger,
       leetcode.zigZagString,
       leetcode.regularExpression,
+      leetcode.containerWithMostWater,
     ]
   },
 
