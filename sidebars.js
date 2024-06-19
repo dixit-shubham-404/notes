@@ -95,6 +95,9 @@ const algorithm_sidebar = [
       leetcode.zigZagString,
       leetcode.regularExpression,
       leetcode.containerWithMostWater,
+      leetcode.threeSumClosest,
+      leetcode.mergeTwoSortedList,
+      leetcode.generateParentheses,
     ]
   },
 

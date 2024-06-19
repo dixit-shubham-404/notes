@@ -168,6 +168,23 @@ const containerWithMostWater = {
     
 };
 
+const threeSumClosest = {
+    label:'3 Sum Closest',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/3SumClosest'
+};
+
+const mergeTwoSortedList = {
+    label:'Merge Two Sorted List',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/MergeTwoSortedList'
+};
+
+const generateParentheses = {
+    label:'Generate Parentheses',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/GenerateParentheses'
+};
 module.exports = {
     subset,
     subStrWithConCat,
@@ -196,4 +213,7 @@ module.exports = {
     zigZagString,
     regularExpression,
     containerWithMostWater,
+    threeSumClosest,
+    mergeTwoSortedList,
+    generateParentheses,
 };
