@@ -185,6 +185,13 @@ const generateParentheses = {
     type:'doc',
     id:'Algorithms/Practise/LeetCode/GenerateParentheses'
 };
+
+const findIndexOfFirst = {
+    label:'Generate Parentheses',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/FindIndexOfFirst'
+};
+
 module.exports = {
     subset,
     subStrWithConCat,
@@ -216,4 +223,5 @@ module.exports = {
     threeSumClosest,
     mergeTwoSortedList,
     generateParentheses,
+    findIndexOfFirst,
 };

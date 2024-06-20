@@ -98,6 +98,7 @@ const algorithm_sidebar = [
       leetcode.threeSumClosest,
       leetcode.mergeTwoSortedList,
       leetcode.generateParentheses,
+      leetcode.findIndexOfFirst,
     ]
   },
 
