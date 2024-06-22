@@ -192,6 +192,12 @@ const findIndexOfFirst = {
     id:'Algorithms/Practise/LeetCode/FindIndexOfFirst'
 };
 
+const divideTwoIntegers = {
+    label:'Generate Parentheses',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/DivideTwoInteger'
+};
+
 module.exports = {
     subset,
     subStrWithConCat,
@@ -224,4 +230,5 @@ module.exports = {
     mergeTwoSortedList,
     generateParentheses,
     findIndexOfFirst,
+    divideTwoIntegers,
 };

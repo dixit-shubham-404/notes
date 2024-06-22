@@ -99,6 +99,7 @@ const algorithm_sidebar = [
       leetcode.mergeTwoSortedList,
       leetcode.generateParentheses,
       leetcode.findIndexOfFirst,
+      leetcode.divideTwoIntegers,
     ]
   },
 
