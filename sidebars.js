@@ -100,6 +100,7 @@ const algorithm_sidebar = [
       leetcode.generateParentheses,
       leetcode.findIndexOfFirst,
       leetcode.divideTwoIntegers,
+      leetcode.searchRotatedSortedArray,
     ]
   },
 

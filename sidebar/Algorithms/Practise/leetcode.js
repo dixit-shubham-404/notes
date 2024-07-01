@@ -198,6 +198,12 @@ const divideTwoIntegers = {
     id:'Algorithms/Practise/LeetCode/DivideTwoInteger'
 };
 
+const searchRotatedSortedArray = {
+    label:'Generate Parentheses',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/SearchRotatedSortedArray'
+};
+
 module.exports = {
     subset,
     subStrWithConCat,
@@ -231,4 +237,5 @@ module.exports = {
     generateParentheses,
     findIndexOfFirst,
     divideTwoIntegers,
+    searchRotatedSortedArray,
 };
