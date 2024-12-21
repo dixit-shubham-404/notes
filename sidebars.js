@@ -12,10 +12,12 @@
 // @ts-check
 const searching = require("./sidebar/Algorithms/searching");
 const set = require("./sidebar/Algorithms/sets");
+const sorting = require("./sidebar/Algorithms/sorting");
 const leetcode = require("./sidebar/Algorithms/Practise/leetcode");
 const os = require("./sidebar/CSSubject/os");
 const systemDesign = require("./sidebar/CSSubject/systemDesign");
 const rust = require("./sidebar/Languages/rust");
+const array = require("./sidebar/DataStructure/array");
 const sll = require("./sidebar/DataStructure/singlyLinkedList");
 const stack = require("./sidebar/DataStructure/stacks");
 const queue = require("./sidebar/DataStructure/queue");
@@ -55,6 +57,18 @@ const algorithm_sidebar = [
     type : 'category',
     items : [
       searching.binarySearch,
+    ]
+  },
+  {
+    label : 'Sorting',
+    type : 'category',
+    items : [
+      sorting.selectionSort,
+      sorting.insertionSort,
+      sorting.quickSort,
+      sorting.mergeSort,
+      sorting.cyclicSort,
+      sorting.heapSort,
     ]
   },
   {
@@ -101,6 +115,9 @@ const algorithm_sidebar = [
       leetcode.findIndexOfFirst,
       leetcode.divideTwoIntegers,
       leetcode.searchRotatedSortedArray,
+      leetcode.findTargetRangeInArray,
+      leetcode.missingNumber,
+      leetcode.disappearedElementInAnArray,
     ]
   },
 
@@ -178,6 +195,18 @@ const infra_sidebar = [
 ];
 
 const dsa_sidebar = [
+  {
+    label: "Array",
+    type:'category',
+    items:[
+      array.distinctThreeLargestElement,
+      array.findSecondLargestElement,
+      array.moveAllZeroesToEnd,
+      array.rearrangeEvenOdd,
+      array.arrayLeader,
+      array.printAllDistinctElement,
+    ]
+  },
   {
   label:'Singly Linked List',
   type: 'category',

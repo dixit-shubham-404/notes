@@ -204,6 +204,24 @@ const searchRotatedSortedArray = {
     id:'Algorithms/Practise/LeetCode/SearchRotatedSortedArray'
 };
 
+const findTargetRangeInArray = {
+    label:'Find Target Range in Sorted Array',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/FindTargetRangeInArray'
+};
+
+const missingNumber = {
+    label:'Missing Number',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/MissingNumber'
+};
+
+const disappearedElementInAnArray = {
+    label:'Missing Number',
+    type:'doc',
+    id:'Algorithms/Practise/LeetCode/DissapperaredElementInArray'
+};
+
 module.exports = {
     subset,
     subStrWithConCat,
@@ -238,4 +256,7 @@ module.exports = {
     findIndexOfFirst,
     divideTwoIntegers,
     searchRotatedSortedArray,
+    findTargetRangeInArray,
+    missingNumber,
+    disappearedElementInAnArray,
 };
